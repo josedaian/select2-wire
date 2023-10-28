@@ -3,8 +3,6 @@
 [![josedaian/select2wire](https://img.shields.io/static/v1?label=Packagist&message=josedaian/select2wire&color=blue&logo=packagist&logoColor=white)](https://packagist.org/packages/josedaian/select2wire)
 [![Laravel 7.2|8|9|10](https://img.shields.io/badge/Laravel-7.2|8|9|10-orange.svg)](http://laravel.com)
 [![Latest Stable Version](https://img.shields.io/packagist/v/josedaian/select2wire.svg)](https://packagist.org/packages/josedaian/select2wire)
-[![Continuous Integration](https://github.com/yajra/laravel-datatables/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/yajra/laravel-datatables/actions/workflows/continuous-integration.yml)
-[![Static Analysis](https://github.com/yajra/laravel-datatables/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/yajra/laravel-datatables/actions/workflows/static-analysis.yml)
 [![Total Downloads](https://poser.pugx.org/josedaian/select2wire/downloads.png)](https://packagist.org/packages/josedaian/select2wire)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/josedaian/select2wire)
 [![Livewire](https://img.shields.io/static/v1?label=Livewire&message=2.0&color=fb70a9&style=flat-square)](https://laravel-livewire.com)
