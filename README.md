@@ -26,7 +26,7 @@ composer require josedaian/select2wire
 ## Usage
 Add the following line within your blade view, below the select2.js and jquery.js scripts
 
-```php
+```blade
 @select2wireScript
 ```
 
@@ -43,7 +43,7 @@ class ExampleComponent extends Component
 ```
 
 If you don’t have a custom init event, you can call the `initSelect2` event directly within your component view.
-```html
+```blade
 <div wire:init="initSelect2">
     ...
     <!-- All your selects here -->
