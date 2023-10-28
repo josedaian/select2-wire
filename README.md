@@ -78,6 +78,11 @@ If you discover any security related issues, please email [josedaian.cabrera@gma
 
 - [Jose Daian](https://github.com/josedaian)
 
+## Acknowledgments
+
+This package was inspired by [livewire-select2](https://github.com/Pharaonic/livewire-select2).
+
+
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/yajra/laravel-datatables/blob/master/LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/josedaian/select2wire/LICENSE) for more information.
