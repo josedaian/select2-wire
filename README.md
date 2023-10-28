@@ -1,0 +1,83 @@
+# Select2 for Livewire components
+
+[![josedaian/select2wire](https://img.shields.io/static/v1?label=Packagist&message=josedaian/select2wire&color=blue&logo=packagist&logoColor=white)](https://packagist.org/packages/josedaian/select2wire)
+[![Laravel 7.2|8|9|10](https://img.shields.io/badge/Laravel-7.2|8|9|10-orange.svg)](http://laravel.com)
+[![Latest Stable Version](https://img.shields.io/packagist/v/josedaian/select2wire.svg)](https://packagist.org/packages/josedaian/select2wire)
+[![Continuous Integration](https://github.com/yajra/laravel-datatables/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/yajra/laravel-datatables/actions/workflows/continuous-integration.yml)
+[![Static Analysis](https://github.com/yajra/laravel-datatables/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/yajra/laravel-datatables/actions/workflows/static-analysis.yml)
+[![Total Downloads](https://poser.pugx.org/josedaian/select2wire/downloads.png)](https://packagist.org/packages/josedaian/select2wire)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/josedaian/select2wire)
+[![Livewire](https://img.shields.io/static/v1?label=Livewire&message=2.0&color=fb70a9&style=flat-square)](https://laravel-livewire.com)
+
+Laravel package for handling Select2 inputs for Livewire components.
+
+## Requirements
+- [PHP >= 7.2](http://php.net/)
+- [Laravel Framework >= 7.2](https://github.com/laravel/framework)
+- [Select2](https://select2.org)
+- [jQuery](https://jquery.com/)
+
+## Quick Installation
+
+```bash
+composer require josedaian/select2wire
+```
+
+## Usage
+Add the following line within your blade view, below the select2.js and jquery.js scripts
+
+```php
+@select2wireScript
+```
+
+Within your Livewire component class, call the trait to do one of the functions when loading the component.
+
+```php
+use Livewire\Component;
+use JoseDaian\Select2\Traits\HasSelect2Wire;
+
+class ExampleComponent extends Component
+{
+    use HasSelect2Wire;
+}
+```
+
+If you don’t have a custom init event, you can call the `initSelect2` event directly within your component view.
+```html
+<div wire:init="initSelect2">
+    ...
+    <!-- All your selects here -->
+</div>
+```
+
+Or in case you already have an init event inside your component, just add the following line
+```php
+public function customInitFunction()
+{
+    // your code
+    $this->initSelect2();
+}
+```
+
+And within your blade view, you’ll need to add the `data-select2wire="select2"` attribute to your inputs select.
+```html
+<select data-select2wire="select2">
+    <!-- options -->
+</select>
+```
+
+## Contributing
+
+Please see [CONTRIBUTING](https://github.com/josedaian/select2wire/blob/master/.github/CONTRIBUTING.md) for details.
+
+## Security
+
+If you discover any security related issues, please email [josedaian.cabrera@gmail.com](mailto:josedaian.cabrera@gmail.com) instead of using the issue tracker.
+
+## Credits
+
+- [Jose Daian](https://github.com/josedaian)
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/yajra/laravel-datatables/blob/master/LICENSE.md) for more information.
