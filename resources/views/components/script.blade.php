@@ -52,7 +52,6 @@
                 const isDefer = wireModelAttr.name.includes("defer");
 
                 select2Element.on("change", function() {
-                    console.log(componentId, propName, select2Element.val());
                     Livewire.find(componentId).set(propName, select2Element.val(), isDefer);
                 });
             }
@@ -65,7 +64,6 @@
 
     window.addEventListener("select2wire.init", Select2Wire.Init.elements);
     window.addEventListener("select2wire.load", event => {
-        console.log(event.detail.target, event.detail.component, event.detail);
         Select2Wire.Load.element($(event.detail.target), event.detail.component);
     });
 </script>
