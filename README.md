@@ -21,6 +21,7 @@ Laravel package for handling Select2 inputs for Livewire components.
 ```bash
 composer require josedaian/select2wire
 ```
+For Livewire 2.x version, go here: [select2wire v1.x](https://github.com/josedaian/select2wire/tree/1.x)
 
 ## Usage
 Add the following line within your blade view, below the select2.js and jquery.js scripts
