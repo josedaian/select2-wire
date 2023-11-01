@@ -10,10 +10,11 @@
 Laravel package for handling Select2 inputs for Livewire components.
 
 ## Requirements
-- [PHP >= 7.2](http://php.net/)
-- [Laravel Framework >= 7.2](https://github.com/laravel/framework)
+- [PHP >= 8.1](http://php.net/)
+- [Laravel Framework >= 10](https://github.com/laravel/framework)
 - [Select2](https://select2.org)
 - [jQuery](https://jquery.com/)
+- [Livewire >= 3](https://laravel-livewire.com)
 
 ## Quick Installation
 
