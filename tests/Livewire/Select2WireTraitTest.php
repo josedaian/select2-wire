@@ -27,6 +27,6 @@ class Select2WireTraitTest extends TestCase
     public function it_dispatches_browser_event_from_trait()
     {
         Livewire::test(ComponentUsingTrait::class)
-            ->assertDispatchedBrowserEvent('select2wire.init');
+            ->assertDispatched('select2wire.init');
     }
 }
