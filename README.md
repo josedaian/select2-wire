@@ -1,19 +1,20 @@
 # Select2 for Livewire components
 
 [![josedaian/select2wire](https://img.shields.io/static/v1?label=Packagist&message=josedaian/select2wire&color=blue&logo=packagist&logoColor=white)](https://packagist.org/packages/josedaian/select2wire)
-[![Laravel 7.2|8|9|10](https://img.shields.io/badge/Laravel-7.2|8|9|10-orange.svg)](http://laravel.com)
+[![Laravel 10](https://img.shields.io/badge/Laravel-10-orange.svg)](http://laravel.com)
 [![Latest Stable Version](https://img.shields.io/packagist/v/josedaian/select2wire.svg)](https://packagist.org/packages/josedaian/select2wire)
 [![Total Downloads](https://poser.pugx.org/josedaian/select2wire/downloads.png)](https://packagist.org/packages/josedaian/select2wire)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/josedaian/select2wire)
-[![Livewire](https://img.shields.io/static/v1?label=Livewire&message=2.0&color=fb70a9&style=flat-square)](https://laravel-livewire.com)
+[![Livewire](https://img.shields.io/static/v1?label=Livewire&message=3.0&color=fb70a9&style=flat-square)](https://laravel-livewire.com)
 
 Laravel package for handling Select2 inputs for Livewire components.
 
 ## Requirements
-- [PHP >= 7.2](http://php.net/)
-- [Laravel Framework >= 7.2](https://github.com/laravel/framework)
+- [PHP >= 8.1](http://php.net/)
+- [Laravel Framework >= 10](https://github.com/laravel/framework)
 - [Select2](https://select2.org)
 - [jQuery](https://jquery.com/)
+- [Livewire >= 3](https://laravel-livewire.com)
 
 ## Quick Installation
 
