@@ -18,7 +18,7 @@ Laravel package for handling Select2 inputs for Livewire components.
 ## Quick Installation
 
 ```bash
-composer require josedaian/select2wire
+composer require josedaian/select2wire:"^1.0"
 ```
 
 ## Usage
