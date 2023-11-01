@@ -6,6 +6,6 @@ trait HasSelect2Wire
 {
     public function initSelect2()
     {
-        $this->dispatchBrowserEvent('select2wire.init');
+        $this->dispatch('select2wire.init');        
     }
 }
